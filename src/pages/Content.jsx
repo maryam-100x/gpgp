@@ -16,9 +16,9 @@ const contentItems = [
     src: "/content/sample2.png",
   },
   {
-    id: 3,
-    type: "video",
-    src: "/content/sample3.mp4",
+    id: 4,
+    type: "image",
+    src: "/content/sample4.png",
   }
 ];
 
