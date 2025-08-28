@@ -934,3 +934,17 @@ body::before {
   background: var(--glass-bg);
   backdrop-filter: blur(10px);
 }
+
+@media (max-width: 480px) {
+  .header-copy-btn {
+    width: 100%;
+    max-width: 80px; /* adjust as you like */
+    padding: 10px 14px;
+    font-size: 0.85rem;
+    border-radius: 10px;
+  }
+
+  .header-copy-btn span {
+    display: inline; /* keep text visible */
+  }
+}
